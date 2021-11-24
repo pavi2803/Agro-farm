@@ -12,6 +12,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from datetime import date, timedelta
 import time
+import sklearn
 from sklearn.linear_model import LinearRegression
 import numpy as np
 import matplotlib.pyplot as plt
