@@ -30,10 +30,10 @@ st.markdown("<h1 style='text-align: center, color: purple'>The Agro Farm - Farme
 
 
 
-s=Service("chromedriver.exe")
+
 option = webdriver.ChromeOptions()
 option.add_argument('headless')
-driver=webdriver.Chrome(service=s)
+driver=webdriver.Chrome("chromedriver.exe")
 
 
 
